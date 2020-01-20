@@ -10,7 +10,7 @@ except:
 
 tps = 1 # 模拟器中的时间（秒）与现实时间（秒）之比
 fps = 10 # 刷新率
-FILL = True
+FILL = False
 # 以下常量是游戏中的时间常量
 uptime = 1000 / fps  # 游戏刷新间隔（毫秒）
 def getr(m):

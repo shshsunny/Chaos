@@ -6,7 +6,7 @@ GetSystemMetrics = ctypes.windll.user32.GetSystemMetrics
 SIZE = [GetSystemMetrics(0), GetSystemMetrics(1)]#[1366, 768]
 tps = 0.5 # 模拟器中的时间（秒）与现实时间（秒）之比
 fps = 10 # 刷新率
-FILL = False
+FILL = True
 # 以下常量是游戏中的时间常量
 uptime = 1000 / fps  # 游戏刷新间隔（毫秒）
 def getr(m):
@@ -198,6 +198,9 @@ while running:
             if keys[pygame.K_d]:
                 m1 = m1 * 1.1
                 r1 = getr(m1)
+            if keys[pygame.K_s]:
+                m2 = m1
+                r2 = getr(m2)
     clock.tick(uptime)
     if FILL: s.fill(BACKGROUND)
     #if r1 < 0: break

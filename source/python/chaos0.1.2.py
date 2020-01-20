@@ -34,7 +34,7 @@ while flag:
     clock.tick(SECT)
     tpos1 = [math.floor(pos1[0] + 0.5),math.floor(pos1[1] + 0.5)]
     tpos2 = [math.floor(pos2[0] + 0.5),math.floor(pos2[1] + 0.5)]
-    s.fill([0, 0, 0])
+    #s.fill([0, 0, 0])
     pygame.draw.circle(s, (255, 0, 0), tpos1, int(math.sqrt(r1 / math.pi) * 5))
     pygame.draw.circle(s, (0, 0, 255), tpos2, int(math.sqrt(r2 / math.pi) * 5))
     pygame.display.flip()

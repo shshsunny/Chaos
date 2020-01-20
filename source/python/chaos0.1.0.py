@@ -17,7 +17,7 @@ while flag:
            flag = False
     clock.tick(SECT)
     tpos = [math.floor(pos[0] + 0.5),math.floor(pos[1] + 0.5)]
-    s.fill([0, 0, 0])
+    #s.fill([0, 0, 0])
     pygame.draw.circle(s, (255, 255, 255), tpos, 10)
     pygame.draw.circle(s, (255, 0, 0), ATTR, 10)
     pygame.display.flip()
