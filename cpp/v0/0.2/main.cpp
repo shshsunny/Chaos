@@ -14,7 +14,7 @@ using namespace std;
 // constants definition
 const double G = 1; // gravitation constant
 const bool gravity = true; // gravitation simulation availability
-//const int width = GetSystemMetrics(SM_CXSCREEN)-100, height = GetSystemMetrics(SM_CYSCREEN)-100;
+const int width = GetSystemMetrics(SM_CXSCREEN)-100, height = GetSystemMetrics(SM_CYSCREEN)-100;
 const bool refresh = true;
 // functions definition
 
