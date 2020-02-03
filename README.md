@@ -11,7 +11,7 @@ This is a **physical simulator** project. In the simulator, there are some bodie
 
 ### Physical simulation functions
 
-Currently, The following functions are implemented  in some versions of the simulator (ticked) or scheduled (blank). ***Some functions maybe aren't integrated normatively, because this is a test project. I'll rebuild the program if it's necessary.***
+Currently, the following functions are implemented  in some versions of the simulator (ticked) or scheduled (blank). ***Some functions maybe aren't integrated normatively, because this is a test project. I'll rebuild the program if it's necessary.***
 
 - [x] basic motion that follows Newton's first law
 - [x] border bouncing
